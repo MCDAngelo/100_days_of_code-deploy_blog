@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "day-71-deploying-websites"
+version = "0.1.0"
+description = ""
+authors = ["MCDAngelo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bootstrap-flask = "2.3.3"
+flask-ckeditor = "0.5.1"
+flask-login = "0.6.3"
+flask-gravatar = "0.5.0"
+flask-wtf = "1.2.1"
+wtforms = "3.0.1"
+werkzeug = "3.0.0"
+flask = "2.3.2"
+flask-sqlalchemy = "3.1.1"
+sqlalchemy = "2.0.25"
+gunicorn = "21.2.0"
+psycopg2-binary = "2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
